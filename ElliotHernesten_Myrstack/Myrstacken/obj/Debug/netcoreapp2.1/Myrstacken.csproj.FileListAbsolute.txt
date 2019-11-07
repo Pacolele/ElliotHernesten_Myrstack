@@ -1,0 +1,11 @@
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\bin\Debug\netcoreapp2.1\Myrstacken.deps.json
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\bin\Debug\netcoreapp2.1\Myrstacken.runtimeconfig.json
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\bin\Debug\netcoreapp2.1\Myrstacken.runtimeconfig.dev.json
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\bin\Debug\netcoreapp2.1\Myrstacken.dll
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\bin\Debug\netcoreapp2.1\Myrstacken.pdb
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\obj\Debug\netcoreapp2.1\Myrstacken.csprojAssemblyReference.cache
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\obj\Debug\netcoreapp2.1\Myrstacken.csproj.CoreCompileInputs.cache
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\obj\Debug\netcoreapp2.1\Myrstacken.AssemblyInfoInputs.cache
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\obj\Debug\netcoreapp2.1\Myrstacken.AssemblyInfo.cs
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\obj\Debug\netcoreapp2.1\Myrstacken.dll
+C:\Users\Paco\source\repos\Myrstacken\Myrstacken\obj\Debug\netcoreapp2.1\Myrstacken.pdb

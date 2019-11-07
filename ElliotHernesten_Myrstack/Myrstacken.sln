@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myrstacken", "Myrstacken\Myrstacken.csproj", "{6C1A8409-9A09-4FAA-97D6-8272C1A657B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C1A8409-9A09-4FAA-97D6-8272C1A657B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1A8409-9A09-4FAA-97D6-8272C1A657B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1A8409-9A09-4FAA-97D6-8272C1A657B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1A8409-9A09-4FAA-97D6-8272C1A657B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0DFE59A-3472-45C2-8152-700F0203B2AA}
+	EndGlobalSection
+EndGlobal
