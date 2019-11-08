@@ -93,6 +93,11 @@ class Program
         while (true)
         {
             Console.WriteLine("Search by Name or Legs:\n");
+            /*
+             * Robin:
+             * Kollar endast efter Name eller Legs med inledande versal, d.v.s. det
+             * är skiftlägeskänsligt.
+             */
             string input = Console.ReadLine();
             if (input == "Name")
             {
@@ -110,6 +115,17 @@ class Program
         }
     }
 
+    /*
+     * Robin:
+     * Detta gäller båda sök-metoderna: 
+     * I foreach-loopen så har du en if-else if sats. Detta leder till att det finns i
+     * else if-satsen skrivs ut för varje myra (lätt att testa genom att bara lägga till 
+     * 2 myror med 1 ben var och sedan söka efter myror med 2 ben). Vad du skulle vilja 
+     * göra är att när du letar efter namn avbryta metoden med en return efter att du hittat 
+     * en myra. Det kan trots allt endast finnas en myra med det namnet. Sen efter for-
+     * loopen skriva ut att det inte finns några myror med det namnet. Du kan uppnå samma
+     * resultat när du söker efter antal ben med hjälp av en bool eller liknande.
+     */
     private void SearchByName()
     {
         Console.WriteLine("Please enter a 'ant name' to search for it");
@@ -135,6 +151,11 @@ class Program
     private void SearchByLegs()
     {
         Console.WriteLine("Please enter amount of 'legs' to search for it:");
+        /*
+         * Robin:
+         * Du utför en parse utan att fånga eventuella fel. Detta leder till att om man försöker 
+         * skriva in en symbol som inte är en siffra här så kraschar programmet.
+         */
         int antSearchLegs = int.Parse(Console.ReadLine());
 
         foreach (Ants a in antColony)
@@ -167,7 +188,10 @@ class Program
                 return;
             }
         }
-
+        /*
+         * Robin:
+         * Hade varit bra med lite feedback här efter loopen ifall ingen myra hittas.
+         */
     }
 
     private void ListAnts()
@@ -186,7 +210,10 @@ class Program
     {
         bool uniqueName = false;
         string name = "";
-
+        /*
+         * Robin:
+         * Snygg while-loop! 
+         */
         while (!uniqueName)
         {
             uniqueName = true;
@@ -241,3 +268,17 @@ class Program
     }
 
 }
+
+/*
+ * Robin:
+ * Koden är snyggt upplagd, konsekvent skriven med tydlig, beskrivande namngivning. Det finns
+ * dock en del logiska fel som leter till både små och stora problem. Vad jag kan se så har
+ * du en tydlig kodningsstil, men vi kan behöva fokusera på att testa koden efter fel lite mer.
+ * 
+ * Vad jag sett så arbetar du på bra på lektionerna. Jag har inte hört dig prata om din kod 
+ * så mycket dock, och vad jag minns så har du inte ställt så många frågor på lektionerna 
+ * (i alla fall till mig). Dock så märker jag att du sammarbetar bra med andra i klassen
+ * vilket är roligt att se.
+ * 
+ * Bra jobbat! Fortsätt arbeta på det som jag pekkat ut här så kommer du bli riktigt duktig!
+ */
