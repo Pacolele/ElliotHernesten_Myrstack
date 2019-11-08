@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paco\\source\\repos\\Myrstacken\\Myrstacken\\Myrstacken.csproj",
+      "projectUniqueName": "C:\\Users\\Paco\\Documents\\GitHub\\Elliot_Hernesten_Myrstacken\\ElliotHernesten_Myrstack\\Myrstacken\\Myrstacken.csproj",
       "projectName": "Myrstacken",
-      "projectPath": "C:\\Users\\Paco\\source\\repos\\Myrstacken\\Myrstacken\\Myrstacken.csproj",
+      "projectPath": "C:\\Users\\Paco\\Documents\\GitHub\\Elliot_Hernesten_Myrstacken\\ElliotHernesten_Myrstack\\Myrstacken\\Myrstacken.csproj",
       "packagesPath": "C:\\Users\\Paco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paco\\source\\repos\\Myrstacken\\Myrstacken\\obj\\",
+      "outputPath": "C:\\Users\\Paco\\Documents\\GitHub\\Elliot_Hernesten_Myrstacken\\ElliotHernesten_Myrstack\\Myrstacken\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
